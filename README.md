@@ -1,9 +1,8 @@
-Certainly! Below is a template for a README.md file for a calculator app built in ReactJS. You can customize it with your specific project details:
 
-```markdown
 # React Calculator App
 
-![Calculator Screenshot](screenshot.png)
+<img width="314" alt="image" src="https://github.com/saurav-tiwari03/React-Calc/assets/116860218/b0133a6a-54fc-4d75-9d01-2d833e34a0aa">
+
 
 A simple calculator web application built using ReactJS.
 
@@ -15,7 +14,6 @@ A simple calculator web application built using ReactJS.
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
@@ -73,9 +71,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push to your forked repository: `git push origin feature-name`.
 5. Create a pull request to the main repository.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Make sure to replace the placeholders like `your-username`, `your-demo-link.com`, and `feature-name` with your actual information. Additionally, you can include a screenshot of your calculator app by replacing `screenshot.png` with the actual filename of your screenshot in the project folder.
