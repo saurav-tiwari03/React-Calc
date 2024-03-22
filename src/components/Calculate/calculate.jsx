@@ -52,6 +52,7 @@ export default function Calculate() {
                 break;
             case '=':
                 setDisplayValue(previousNumber)
+                break;
             default:
                 setDisplayValue("Unknown error");
                 break;
@@ -121,13 +122,12 @@ export default function Calculate() {
                         <button onClick={() => inputDigit('0')}>0</button>
                         </td>
                         <td>
-                        <button onClick={() => inputDecimal('.')}>.</button>
-                        </td>
-                        <td>
                             <button className="equal" onClick={() => calculate()}>=</button> 
                         </td>
                         <td>
-                        
+                        <button onClick={() => inputDecimal('.')}>.</button>
+                        </td>
+                        <td>
                         <button onClick={() => setOperatorFunc('+')}>+</button>
                         </td>
                     </tr>
@@ -135,10 +135,10 @@ export default function Calculate() {
             </div>
             <div className="footer">
                 <div className="int">
-                    <a href="https://github.com/saurav-tiwari03" target="_blank"><i class="fa-brands fa-github">Github</i></a>
+                    <a href="https://github.com/saurav-tiwari03" target="_blank" without rel="noreferrer"><i class="fa-brands fa-github">Github</i></a>
                 </div>
                 <div className="int">
-                    <a href="https://my-portfolio-03.netlify.com" target="_blank"><i class="fa-solid fa-user">Porfile</i></a>
+                    <a href="https://my-portfolio-03.netlify.com" target="_blank" without rel="noreferrer"><i class="fa-solid fa-user">Porfile</i></a>
                 </div>
             </div>
             </div>
