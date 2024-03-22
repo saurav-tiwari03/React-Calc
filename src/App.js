@@ -7,7 +7,7 @@ function App() {
     <div>
       <Heading/>
       <Calculate/>
-      <div>Changes are made</div>
+      
     </div>
   );
 }
