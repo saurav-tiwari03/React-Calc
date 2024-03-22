@@ -121,13 +121,12 @@ export default function Calculate() {
                         <button onClick={() => inputDigit('0')}>0</button>
                         </td>
                         <td>
-                        <button onClick={() => inputDecimal('.')}>.</button>
-                        </td>
-                        <td>
                             <button className="equal" onClick={() => calculate()}>=</button> 
                         </td>
                         <td>
-                        
+                        <button onClick={() => inputDecimal('.')}>.</button>
+                        </td>
+                        <td>
                         <button onClick={() => setOperatorFunc('+')}>+</button>
                         </td>
                     </tr>
